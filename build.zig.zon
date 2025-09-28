@@ -1,0 +1,21 @@
+.{
+    .name = .myzql_ziro,
+    .version = "0.0.0",
+    .fingerprint = 0xaae9842e04e99e08,
+    .minimum_zig_version = "0.14.1",
+    .dependencies = .{
+        .ziro = .{
+            .url = "git+https://github.com/dacheng-zig/ziro#3743cfbd2f7a213bf21353bcd2577730dc225e2c",
+            .hash = "ziro-0.0.0-gJN_2EN2AQA_I5PZmGST782755H79U6unWqMHzbOfkUU",
+        },
+        .myzql = .{
+            .url = "git+https://github.com/dacheng-zig/myzql#7610d0832c436433ad0c5c09d8fd5392c9e6cc35",
+            .hash = "myzql-0.0.0-XU5aAKYLAwDtQ5QWEk6qGTPGnLDcIU5DY-s_V0JvJcof",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
