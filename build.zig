@@ -5,6 +5,7 @@ pub fn build(b: *std.Build) void {
     const optimize = b.standardOptimizeOption(.{});
 
     // 3rd modules
+    const xev = b.dependency("libxev", .{}).module("xev");
     const ziro = b.dependency("ziro", .{}).module("ziro");
     const myzql = b.dependency("myzql", .{}).module("myzql");
 
@@ -15,6 +16,7 @@ pub fn build(b: *std.Build) void {
             .target = target,
             .optimize = optimize,
             .imports = &.{
+                .{ .name = "xev", .module = xev },
                 .{ .name = "ziro", .module = ziro },
                 .{ .name = "myzql", .module = myzql },
             },

@@ -4,6 +4,10 @@
     .fingerprint = 0xaae9842e04e99e08,
     .minimum_zig_version = "0.14.1",
     .dependencies = .{
+        .libxev = .{
+            .url = "git+https://github.com/dacheng-zig/libxev#57fe5ad96ee04250afdb81f55e501369cfce18df",
+            .hash = "libxev-0.0.0-86vtc3seEwCOQ3Sw3-kFFC9615B4F_aZDOr0jJM47tk8",
+        },
         .ziro = .{
             .url = "git+https://github.com/dacheng-zig/ziro#3743cfbd2f7a213bf21353bcd2577730dc225e2c",
             .hash = "ziro-0.0.0-gJN_2EN2AQA_I5PZmGST782755H79U6unWqMHzbOfkUU",
