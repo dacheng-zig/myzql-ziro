@@ -55,7 +55,7 @@ fn batch_insert(allocator: std.mem.Allocator) !void {
         .database = "demo",
         .address = std.net.Address.initIp4(.{ 127, 0, 0, 1 }, 3306),
     });
-    defer client.deinit();
+    defer client.deinit(allocator);
 
     var i: u32 = 100 * 1000;
     const prepare_result = try client.prepare(allocator,
