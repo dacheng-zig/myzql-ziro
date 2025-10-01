@@ -5,12 +5,12 @@
     .minimum_zig_version = "0.15.1",
     .dependencies = .{
         .ziro = .{
-            .url = "git+https://github.com/dacheng-zig/ziro#28b9b4f95106622ba9e92c531c5d4621874f172c",
-            .hash = "ziro-0.0.0-gJN_2Bt9AQAJreKS1cDqWBYyPIlWnJAfSdx3Q44i17We",
+            .url = "git+https://github.com/dacheng-zig/ziro#0903ba71a12f4c08f8715210a9afa680b3ca5c10",
+            .hash = "ziro-0.0.0-gJN_2OduAQB1td3G-pgt4lI2H6Sl7KaGoDEMyLjVZP8N",
         },
         .myzql = .{
-            .url = "git+https://github.com/dacheng-zig/myzql#63c932ae3b1f96d83f1f57979af3f8e219259b03",
-            .hash = "myzql-0.0.0-XU5aAB35AgBG5sLpmbuq1Bt9qdyeUtJM2x-X8Cuxt6U8",
+            .url = "git+https://github.com/dacheng-zig/myzql#025df4a70e243722ec25f88e131bda6a7b209cf1",
+            .hash = "myzql-0.0.0-XU5aAB35AgDikQpyOV79l9PCiMuv-Bb2dGlRP7nVF_h8",
         },
     },
     .paths = .{
